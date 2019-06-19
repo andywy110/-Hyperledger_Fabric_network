@@ -11,7 +11,11 @@ Base on that, our AI resource allocation system can calculate all the data in bl
 
 ## The design flow
 ![alt text](https://developer.ibm.com/developer/patterns/build-an-asset-leasing-application-using-blockchain-and-iot/images/flow-v4.png)
-
+1. The smart contract is deployed to a local Hyperledger Fabric network via the IBM Blockchain Platform extension for VS Code.
+2. As the asset is moved from place to place it is scanned via RFID or barcode by an IoT device. In this pattern, the device is simulated.
+3. The IoT device publishes an event notification to the IBM Watson IoT Platform, which then notifies all listening applications that a scan has taken place.
+4. An application listening to the IBM Watson IoT Platform for scanning events then invokes a transfer transaction.
+5. The location of the asset is updated in the ledger automatically.
 ## 主题
 
 本次挑战赛内容为，创造解决方案，用于提高对自然灾害的准备，并在灾害来临时加速救援。
