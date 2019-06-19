@@ -9,7 +9,11 @@ All resuce stations has a blockchain node ,which it can store all the infomation
 
 Base on that, our AI resource allocation system can calculate all the data in block nodes includes station's weather conditions, geography infomation, and so on.. and thus genering the allocation solution plan. 
 
-主题
+## The design flow
+![alt text](https://developer.ibm.com/developer/patterns/build-an-asset-leasing-application-using-blockchain-and-iot/images/flow-v4.png)
+
+## 主题
+
 本次挑战赛内容为，创造解决方案，用于提高对自然灾害的准备，并在灾害来临时加速救援。
 
 今年的挑战是强调个人健康和社区福祉（individual health 和 community well-being），这包括但不限于：
